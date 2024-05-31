@@ -19,7 +19,7 @@ pipeline{
          stage('Testing'){
             steps{
             sh 'firebase deploy -P  testing-replica-458e6
- --token "$FIREBASE_DEPLOY_TOKEN"'
+              --token "$FIREBASE_DEPLOY_TOKEN"'
             }
         }
 
